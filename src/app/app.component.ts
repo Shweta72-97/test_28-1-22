@@ -10,9 +10,15 @@ export class AppComponent {
 
   constructor() {
     this.testFunction2();
+    this.testFunction3();
   }
 
   testFunction2() {
     console.log("test function 2")
+  }
+
+
+  testFunction3() {
+    console.log("test function 3")
   }
 }
