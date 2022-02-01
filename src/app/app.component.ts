@@ -10,13 +10,9 @@ export class AppComponent {
 
   constructor() {
       this.testFunction1();
-    this.testFunction2();
-    this.testFunction3();
+      this.testFunction2();
+      this.testFunction3();
 
-  }
-
-  testFunction1() {
-    console.log("test function 1")
   }
 
 
@@ -27,6 +23,7 @@ export class AppComponent {
 
 
   testFunction3() {
-    console.log("test function 3")
+      console.log("test function 3")
+      console.log("test function")
   }
 }
