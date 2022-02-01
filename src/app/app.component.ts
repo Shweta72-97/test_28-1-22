@@ -9,12 +9,20 @@ export class AppComponent {
   title = 'project1';
 
   constructor() {
-    this.testFunction1();
+      this.testFunction1();
+      this.testFunction2();
 
   }
 
   testFunction1() {
     console.log("test function 1")
+  }
+
+
+  
+
+  testFunction2() {
+    console.log("test function 2")
   }
 
 }
