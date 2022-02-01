@@ -17,7 +17,6 @@ export class AppComponent {
     console.log("test function 2")
   }
 
-
   testFunction3() {
     console.log("test function 3")
   }
