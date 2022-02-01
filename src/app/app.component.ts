@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project1';
+
+  constructor() {
+    this.testFunction1();
+  }
+
+  testFunction1() {
+    console.log("test function 1")
+  }
 }
